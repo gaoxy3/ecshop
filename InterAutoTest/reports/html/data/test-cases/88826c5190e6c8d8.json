@@ -1,0 +1,128 @@
+{
+  "uid" : "88826c5190e6c8d8",
+  "name" : "登录2",
+  "fullName" : "testcase.test_login.TestLogin#test_login1",
+  "historyId" : "299e763a020391589e78adf56ea6143c",
+  "time" : {
+    "start" : 1653985566244,
+    "stop" : 1653985566245,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('E:\\\\code\\\\InterAutoTest\\\\testcase\\\\test_login.py', 18, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录-二级标题"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "dingce-PC"
+  }, {
+    "name" : "thread",
+    "value" : "4924-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eeb46806e20bc9e3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1653984028959,
+        "stop" : 1653984028959,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "98afc6787770f711",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1653983414464,
+        "stop" : 1653983414464,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7197dc13c962548",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1653895969729,
+        "stop" : 1653895969729,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "baaef9ffab025776",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1653895928577,
+        "stop" : 1653895928577,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a718fcc496502edc",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1653895889039,
+        "stop" : 1653895889039,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ac8e24f2cf9cdb84",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1653895561093,
+        "stop" : 1653895561093,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip", "run(order=1)" ]
+  },
+  "source" : "88826c5190e6c8d8.json",
+  "parameterValues" : [ ]
+}

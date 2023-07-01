@@ -1,0 +1,158 @@
+{
+  "uid" : "abb5b791cce7d672",
+  "name" : "test_del",
+  "fullName" : "testcase.test_dept.TestDept#test_del",
+  "historyId" : "a6656c6aa410880514f9e2419df5b974",
+  "time" : {
+    "start" : 1653985566513,
+    "stop" : 1653985566513,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 版本大于5不需要执行该用例",
+  "statusTrace" : "('E:\\\\code\\\\InterAutoTest\\\\testcase\\\\test_dept.py', 20, 'Skipped: 版本大于5不需要执行该用例')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestDept",
+    "time" : {
+      "start" : 1653985566285,
+      "stop" : 1653985566341,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestDept::0",
+    "time" : {
+      "start" : 1653985566521,
+      "stop" : 1653985566521,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "部门模块"
+  }, {
+    "name" : "story",
+    "value" : "部门-二级标题"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(True, reason='版本大于5不需要执行该用例')"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_dept"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDept"
+  }, {
+    "name" : "host",
+    "value" : "dingce-PC"
+  }, {
+    "name" : "thread",
+    "value" : "4924-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_dept"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "11d39b8db450d4b0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 版本大于5不需要执行该用例",
+      "time" : {
+        "start" : 1653984029002,
+        "stop" : 1653984029002,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db07a0855e1a8d74",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 版本大于5不需要执行该用例",
+      "time" : {
+        "start" : 1653983416252,
+        "stop" : 1653983416252,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5daf8db0622199e6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 版本大于5不需要执行该用例",
+      "time" : {
+        "start" : 1653895969796,
+        "stop" : 1653895969796,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4a5120136dd8a115",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 版本大于5不需要执行该用例",
+      "time" : {
+        "start" : 1653895928631,
+        "stop" : 1653895928631,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1cbebd5ed6f1924d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 版本大于5不需要执行该用例",
+      "time" : {
+        "start" : 1653895889083,
+        "stop" : 1653895889083,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "feab1f167bcbae67",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 版本大于5不需要执行该用例",
+      "time" : {
+        "start" : 1653895561163,
+        "stop" : 1653895561163,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(True, reason='版本大于5不需要执行该用例')", "run(order=2)" ]
+  },
+  "source" : "abb5b791cce7d672.json",
+  "parameterValues" : [ ]
+}

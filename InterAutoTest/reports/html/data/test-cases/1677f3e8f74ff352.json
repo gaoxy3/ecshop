@@ -1,0 +1,154 @@
+{
+  "uid" : "1677f3e8f74ff352",
+  "name" : "test_add[http://127.0.0.1:5000/api/addDept-{\"deptname\":\"实施部\"}    \n]",
+  "fullName" : "testcase.test_dept.TestDept#test_add",
+  "historyId" : "0f399a64608a40dcaaf703819c4c6670",
+  "time" : {
+    "start" : 1653985566345,
+    "stop" : 1653985566405,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestDept",
+    "time" : {
+      "start" : 1653985566285,
+      "stop" : 1653985566341,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestDept::0",
+    "time" : {
+      "start" : 1653985566521,
+      "stop" : 1653985566521,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "部门模块"
+  }, {
+    "name" : "story",
+    "value" : "部门-二级标题"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_dept"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDept"
+  }, {
+    "name" : "host",
+    "value" : "dingce-PC"
+  }, {
+    "name" : "thread",
+    "value" : "4924-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_dept"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "'{\"deptname\":\"实施部\"}    \n'"
+  }, {
+    "name" : "url",
+    "value" : "'http://127.0.0.1:5000/api/addDept'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3335d72f50e868d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653984028974,
+        "stop" : 1653984028983,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "5fbb2a5bb98c74a6",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1653983414507,
+        "stop" : 1653983414507,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b6be951ffca59da9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653895969761,
+        "stop" : 1653895969768,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "f9ea883dc967d86c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653895928598,
+        "stop" : 1653895928604,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "37904bc07733f169",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653895889059,
+        "stop" : 1653895889067,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "5640d1e5d87eb7f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653895561121,
+        "stop" : 1653895561130,
+        "duration" : 9
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "1677f3e8f74ff352.json",
+  "parameterValues" : [ "'{\"deptname\":\"实施部\"}    \n'", "'http://127.0.0.1:5000/api/addDept'" ]
+}

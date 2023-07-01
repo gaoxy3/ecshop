@@ -1,0 +1,11 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Tue May 31 16:26:06 CST 2022","Tue May 31 16:26:06 CST 2022","1","testcase","test_login","TestLogin","","","登录2",""
+"passed","Tue May 31 16:26:06 CST 2022","Tue May 31 16:26:06 CST 2022","60","testcase","test_dept","TestDept","","","test_add[http://127.0.0.1:5000/api/addDept-{""deptname"":""实施部""}    
+]",""
+"passed","Tue May 31 16:26:06 CST 2022","Tue May 31 16:26:06 CST 2022","73","testcase","test_dept","TestDept","","","test_getAll[http://127.0.0.1:5000/api/getAllDepts]",""
+"skipped","Tue May 31 16:26:06 CST 2022","Tue May 31 16:26:06 CST 2022","0","testcase","test_dept","TestDept","","","test_del",""
+"passed","Tue May 31 16:26:06 CST 2022","Tue May 31 16:26:06 CST 2022","84","testcase","test_login","TestLogin","","","post请求-验证用户名输入非法参数登录失败","用户登录接口，需要用户名和密码"
+"passed","Tue May 31 16:26:05 CST 2022","Tue May 31 16:26:05 CST 2022","63","testcase","test_login","TestLogin","","","post请求-验证能够成功登录","用户登录接口，需要用户名和密码"
+"passed","Tue May 31 16:26:05 CST 2022","Tue May 31 16:26:05 CST 2022","37","testcase","test_login","TestLogin","","","post请求-验证不输入用户名登录失败","用户登录接口，需要用户名和密码"
+"passed","Tue May 31 16:26:06 CST 2022","Tue May 31 16:26:06 CST 2022","79","testcase","test_login","TestLogin","","","post请求-验证密码输入错误登录失败","用户登录接口，需要用户名和密码"
+"passed","Tue May 31 16:26:06 CST 2022","Tue May 31 16:26:06 CST 2022","0","testcase","test_login","TestLogin","","","注销",""

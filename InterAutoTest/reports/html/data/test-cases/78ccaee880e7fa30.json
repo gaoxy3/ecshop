@@ -1,0 +1,95 @@
+{
+  "uid" : "78ccaee880e7fa30",
+  "name" : "post请求-验证用户名输入非法参数登录失败",
+  "fullName" : "testcase.test_login.TestLogin#test_login",
+  "historyId" : "e735d216582b9b0ead7acb5d40467fdc",
+  "time" : {
+    "start" : 1653983412348,
+    "stop" : 1653983413381,
+    "duration" : 1033
+  },
+  "description" : "用户登录接口，需要用户名和密码",
+  "descriptionHtml" : "<p>用户登录接口，需要用户名和密码</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用户登录接口，需要用户名和密码",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f28f5ac9fabf8847",
+      "name" : "log",
+      "source" : "f28f5ac9fabf8847.txt",
+      "type" : "text/plain",
+      "size" : 366
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录-二级标题"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "dingce-PC"
+  }, {
+    "name" : "thread",
+    "value" : "4672-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "'{\"username\":\"孙华@\",\n\"password\":\"123456\"}   '"
+  }, {
+    "name" : "title",
+    "value" : "'post请求-验证用户名输入非法参数登录失败'"
+  }, {
+    "name" : "url",
+    "value" : "'http://127.0.0.1:5000/api/login'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "78ccaee880e7fa30.json",
+  "parameterValues" : [ "'{\"username\":\"孙华@\",\n\"password\":\"123456\"}   '", "'post请求-验证用户名输入非法参数登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+}

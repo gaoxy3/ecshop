@@ -1,0 +1,16 @@
+2022-05-31 16:18:35,194 logUtill DEBUG debug... 
+2022-05-31 16:18:35,194 logUtill INFO info... 
+2022-05-31 16:18:35,194 logUtill WARNING warning... 
+2022-05-31 16:18:35,195 logUtill ERROR error... 
+2022-05-31 16:18:35,195 logUtill CRITICAL critical... 
+2022-05-31 16:22:58,460 E:/code/InterAutoTest/common/logUtill.py ERROR ������Ϣ������ 
+2022-05-31 16:23:42,507 E:/code/InterAutoTest/common/logUtill.py ERROR 错误信息。。。 
+2022-05-31 16:26:05,903 E:\code\InterAutoTest\common\logUtill.py INFO 接口:http://127.0.0.1:5000/api/login参数:{"username":"孙华",
+"password":"123456"}    
+ 
+2022-05-31 16:26:05,990 E:\code\InterAutoTest\common\logUtill.py INFO 接口:http://127.0.0.1:5000/api/login参数:{
+"password":"123456"}   
+2022-05-31 16:26:06,105 E:\code\InterAutoTest\common\logUtill.py INFO 接口:http://127.0.0.1:5000/api/login参数:{"username":"孙华@",
+"password":"123456"}    
+2022-05-31 16:26:06,220 E:\code\InterAutoTest\common\logUtill.py INFO 接口:http://127.0.0.1:5000/api/login参数:{"username":"孙华",
+"password":"12345633"}   

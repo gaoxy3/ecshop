@@ -1,0 +1,145 @@
+{
+  "uid" : "12c69a205dfda262",
+  "name" : "post请求-验证用户名输入非法参数登录失败",
+  "fullName" : "testcase.test_login.TestLogin#test_login",
+  "historyId" : "e735d216582b9b0ead7acb5d40467fdc",
+  "time" : {
+    "start" : 1653985566022,
+    "stop" : 1653985566106,
+    "duration" : 84
+  },
+  "description" : "用户登录接口，需要用户名和密码",
+  "descriptionHtml" : "<p>用户登录接口，需要用户名和密码</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用户登录接口，需要用户名和密码",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d052929c1c133962",
+      "name" : "log",
+      "source" : "d052929c1c133962.txt",
+      "type" : "text/plain",
+      "size" : 155
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录-二级标题"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "dingce-PC"
+  }, {
+    "name" : "thread",
+    "value" : "4924-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "'{\"username\":\"孙华@\",\n\"password\":\"123456\"}   '"
+  }, {
+    "name" : "title",
+    "value" : "'post请求-验证用户名输入非法参数登录失败'"
+  }, {
+    "name" : "url",
+    "value" : "'http://127.0.0.1:5000/api/login'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e5807f870bd87e10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653984028921,
+        "stop" : 1653984028932,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "78ccaee880e7fa30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653983412348,
+        "stop" : 1653983413381,
+        "duration" : 1033
+      }
+    }, {
+      "uid" : "19a8f0941b03bddb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653895969642,
+        "stop" : 1653895969700,
+        "duration" : 58
+      }
+    }, {
+      "uid" : "46b5e7bb657426e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653895928531,
+        "stop" : 1653895928539,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "2a9e3a3b9d36da38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653895889014,
+        "stop" : 1653895889021,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "33219c8463c02a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653895561021,
+        "stop" : 1653895561038,
+        "duration" : 17
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "12c69a205dfda262.json",
+  "parameterValues" : [ "'{\"username\":\"孙华@\",\n\"password\":\"123456\"}   '", "'post请求-验证用户名输入非法参数登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+}

@@ -1,0 +1,145 @@
+{
+  "uid" : "46dc965955fc4acd",
+  "name" : "post请求-验证密码输入错误登录失败",
+  "fullName" : "testcase.test_login.TestLogin#test_login",
+  "historyId" : "168c7c8f54d15320ec64d53e0f40d96d",
+  "time" : {
+    "start" : 1653985566143,
+    "stop" : 1653985566222,
+    "duration" : 79
+  },
+  "description" : "用户登录接口，需要用户名和密码",
+  "descriptionHtml" : "<p>用户登录接口，需要用户名和密码</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用户登录接口，需要用户名和密码",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a7323d6bd2aaff2f",
+      "name" : "log",
+      "source" : "a7323d6bd2aaff2f.txt",
+      "type" : "text/plain",
+      "size" : 156
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录-二级标题"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "dingce-PC"
+  }, {
+    "name" : "thread",
+    "value" : "4924-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "'{\"username\":\"孙华\",\n\"password\":\"12345633\"}  '"
+  }, {
+    "name" : "title",
+    "value" : "'post请求-验证密码输入错误登录失败'"
+  }, {
+    "name" : "url",
+    "value" : "'http://127.0.0.1:5000/api/login'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9162a009e389d49a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653984028943,
+        "stop" : 1653984028953,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "b010c235ab241e4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653983413419,
+        "stop" : 1653983414436,
+        "duration" : 1017
+      }
+    }, {
+      "uid" : "1cd8894e978d0c38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653895969709,
+        "stop" : 1653895969723,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "bfb97a371bc3142d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653895928556,
+        "stop" : 1653895928563,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "29147bc572c5e24f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653895889026,
+        "stop" : 1653895889035,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "16f7b1fbccc08cb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653895561059,
+        "stop" : 1653895561076,
+        "duration" : 17
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "46dc965955fc4acd.json",
+  "parameterValues" : [ "'{\"username\":\"孙华\",\n\"password\":\"12345633\"}  '", "'post请求-验证密码输入错误登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+}

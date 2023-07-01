@@ -1,0 +1,91 @@
+[ {
+  "uid" : "88826c5190e6c8d8",
+  "name" : "登录2",
+  "time" : {
+    "start" : 1653985566244,
+    "stop" : 1653985566245,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1677f3e8f74ff352",
+  "name" : "test_add[http://127.0.0.1:5000/api/addDept-{\"deptname\":\"实施部\"}    \n]",
+  "time" : {
+    "start" : 1653985566345,
+    "stop" : 1653985566405,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6a2bf5cad3811d2",
+  "name" : "test_getAll[http://127.0.0.1:5000/api/getAllDepts]",
+  "time" : {
+    "start" : 1653985566428,
+    "stop" : 1653985566501,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "abb5b791cce7d672",
+  "name" : "test_del",
+  "time" : {
+    "start" : 1653985566513,
+    "stop" : 1653985566513,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "12c69a205dfda262",
+  "name" : "post请求-验证用户名输入非法参数登录失败",
+  "time" : {
+    "start" : 1653985566022,
+    "stop" : 1653985566106,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "680c390810af4481",
+  "name" : "post请求-验证能够成功登录",
+  "time" : {
+    "start" : 1653985565842,
+    "stop" : 1653985565905,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dacaf357b527dc10",
+  "name" : "post请求-验证不输入用户名登录失败",
+  "time" : {
+    "start" : 1653985565955,
+    "stop" : 1653985565992,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46dc965955fc4acd",
+  "name" : "post请求-验证密码输入错误登录失败",
+  "time" : {
+    "start" : 1653985566143,
+    "stop" : 1653985566222,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f640e41c71ca25fc",
+  "name" : "注销",
+  "time" : {
+    "start" : 1653985566271,
+    "stop" : 1653985566271,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

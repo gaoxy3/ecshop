@@ -1,0 +1,2 @@
+INFO     E:\code\InterAutoTest\common\logUtill.py:test_login.py:16 接口:http://127.0.0.1:5000/api/login参数:{"username":"孙华",
+"password":"123456"}

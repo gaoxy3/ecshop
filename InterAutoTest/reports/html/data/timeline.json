@@ -1,0 +1,1108 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "dingce-PC",
+    "children" : [ {
+      "name" : "8112-MainThread",
+      "children" : [ {
+        "name" : "test_add[http://127.0.0.1:5000/api/addDept-{\"deptname\":\"实施部\"}    \n]",
+        "uid" : "f9ea883dc967d86c",
+        "parentUid" : "45994796486eb7b5089e74cb84b7e65f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895928598,
+          "stop" : 1653895928604,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"deptname\":\"实施部\"}    \n'", "'http://127.0.0.1:5000/api/addDept'" ]
+      }, {
+        "name" : "登录",
+        "uid" : "4d1fdfccec598321",
+        "parentUid" : "45994796486eb7b5089e74cb84b7e65f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895928510,
+          "stop" : 1653895928516,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\n\"password\":\"123456\"}  '", "'post请求-验证不输入用户名登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "登录2",
+        "uid" : "baaef9ffab025776",
+        "parentUid" : "45994796486eb7b5089e74cb84b7e65f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653895928577,
+          "stop" : 1653895928577,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "bfb97a371bc3142d",
+        "parentUid" : "45994796486eb7b5089e74cb84b7e65f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895928556,
+          "stop" : 1653895928563,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华\",\n\"password\":\"12345633\"}  '", "'post请求-验证密码输入错误登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "登录",
+        "uid" : "ab99592abb166db3",
+        "parentUid" : "45994796486eb7b5089e74cb84b7e65f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895928486,
+          "stop" : 1653895928495,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华\",\n\"password\":\"123456\"}    \n'", "'post请求-验证能够成功登录'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "test_getAll[http://127.0.0.1:5000/api/getAllDepts]",
+        "uid" : "eeacc009768c57ef",
+        "parentUid" : "45994796486eb7b5089e74cb84b7e65f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895928616,
+          "stop" : 1653895928623,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'http://127.0.0.1:5000/api/getAllDepts'" ]
+      }, {
+        "name" : "test_del",
+        "uid" : "4a5120136dd8a115",
+        "parentUid" : "45994796486eb7b5089e74cb84b7e65f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653895928631,
+          "stop" : 1653895928631,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "46b5e7bb657426e5",
+        "parentUid" : "45994796486eb7b5089e74cb84b7e65f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895928531,
+          "stop" : 1653895928539,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华@\",\n\"password\":\"123456\"}   '", "'post请求-验证用户名输入非法参数登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "注销",
+        "uid" : "1a999ba857bd320e",
+        "parentUid" : "45994796486eb7b5089e74cb84b7e65f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895928585,
+          "stop" : 1653895928585,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "45994796486eb7b5089e74cb84b7e65f"
+    }, {
+      "name" : "4924-MainThread",
+      "children" : [ {
+        "name" : "post请求-验证不输入用户名登录失败",
+        "uid" : "dacaf357b527dc10",
+        "parentUid" : "fb2cb701af5ba6d5b751304ae020008e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653985565955,
+          "stop" : 1653985565992,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\n\"password\":\"123456\"}  '", "'post请求-验证不输入用户名登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "test_del",
+        "uid" : "abb5b791cce7d672",
+        "parentUid" : "fb2cb701af5ba6d5b751304ae020008e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653985566513,
+          "stop" : 1653985566513,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录2",
+        "uid" : "88826c5190e6c8d8",
+        "parentUid" : "fb2cb701af5ba6d5b751304ae020008e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653985566244,
+          "stop" : 1653985566245,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "post请求-验证用户名输入非法参数登录失败",
+        "uid" : "12c69a205dfda262",
+        "parentUid" : "fb2cb701af5ba6d5b751304ae020008e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653985566022,
+          "stop" : 1653985566106,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华@\",\n\"password\":\"123456\"}   '", "'post请求-验证用户名输入非法参数登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "test_add[http://127.0.0.1:5000/api/addDept-{\"deptname\":\"实施部\"}    \n]",
+        "uid" : "1677f3e8f74ff352",
+        "parentUid" : "fb2cb701af5ba6d5b751304ae020008e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653985566345,
+          "stop" : 1653985566405,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "'{\"deptname\":\"实施部\"}    \n'", "'http://127.0.0.1:5000/api/addDept'" ]
+      }, {
+        "name" : "注销",
+        "uid" : "f640e41c71ca25fc",
+        "parentUid" : "fb2cb701af5ba6d5b751304ae020008e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653985566271,
+          "stop" : 1653985566271,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "post请求-验证密码输入错误登录失败",
+        "uid" : "46dc965955fc4acd",
+        "parentUid" : "fb2cb701af5ba6d5b751304ae020008e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653985566143,
+          "stop" : 1653985566222,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华\",\n\"password\":\"12345633\"}  '", "'post请求-验证密码输入错误登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "test_getAll[http://127.0.0.1:5000/api/getAllDepts]",
+        "uid" : "e6a2bf5cad3811d2",
+        "parentUid" : "fb2cb701af5ba6d5b751304ae020008e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653985566428,
+          "stop" : 1653985566501,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "'http://127.0.0.1:5000/api/getAllDepts'" ]
+      }, {
+        "name" : "post请求-验证能够成功登录",
+        "uid" : "680c390810af4481",
+        "parentUid" : "fb2cb701af5ba6d5b751304ae020008e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653985565842,
+          "stop" : 1653985565905,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华\",\n\"password\":\"123456\"}    \n'", "'post请求-验证能够成功登录'", "'http://127.0.0.1:5000/api/login'" ]
+      } ],
+      "uid" : "fb2cb701af5ba6d5b751304ae020008e"
+    }, {
+      "name" : "3300-MainThread",
+      "children" : [ {
+        "name" : "注销",
+        "uid" : "e7979f7d29ff711",
+        "parentUid" : "0dc27239560577a486ed9e128fd33032",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895889045,
+          "stop" : 1653895889045,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "2a9e3a3b9d36da38",
+        "parentUid" : "0dc27239560577a486ed9e128fd33032",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895889014,
+          "stop" : 1653895889021,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华@\",\n\"password\":\"123456\"}   '", "'post请求-验证用户名输入非法参数登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "登录2",
+        "uid" : "a718fcc496502edc",
+        "parentUid" : "0dc27239560577a486ed9e128fd33032",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653895889039,
+          "stop" : 1653895889039,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_del",
+        "uid" : "1cbebd5ed6f1924d",
+        "parentUid" : "0dc27239560577a486ed9e128fd33032",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653895889083,
+          "stop" : 1653895889083,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "dfd99588d870a6",
+        "parentUid" : "0dc27239560577a486ed9e128fd33032",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895889001,
+          "stop" : 1653895889007,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\n\"password\":\"123456\"}  '", "'post请求-验证不输入用户名登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "登录",
+        "uid" : "d1910bd3216af638",
+        "parentUid" : "0dc27239560577a486ed9e128fd33032",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895888981,
+          "stop" : 1653895888995,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华\",\n\"password\":\"123456\"}    \n'", "'post请求-验证能够成功登录'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "登录",
+        "uid" : "29147bc572c5e24f",
+        "parentUid" : "0dc27239560577a486ed9e128fd33032",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895889026,
+          "stop" : 1653895889035,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华\",\n\"password\":\"12345633\"}  '", "'post请求-验证密码输入错误登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "test_add[http://127.0.0.1:5000/api/addDept-{\"deptname\":\"实施部\"}    \n]",
+        "uid" : "37904bc07733f169",
+        "parentUid" : "0dc27239560577a486ed9e128fd33032",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895889059,
+          "stop" : 1653895889067,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"deptname\":\"实施部\"}    \n'", "'http://127.0.0.1:5000/api/addDept'" ]
+      }, {
+        "name" : "test_getAll[http://127.0.0.1:5000/api/getAllDepts]",
+        "uid" : "d4224ea42b094c13",
+        "parentUid" : "0dc27239560577a486ed9e128fd33032",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895889072,
+          "stop" : 1653895889080,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'http://127.0.0.1:5000/api/getAllDepts'" ]
+      } ],
+      "uid" : "0dc27239560577a486ed9e128fd33032"
+    }, {
+      "name" : "4672-MainThread",
+      "children" : [ {
+        "name" : "post请求-验证密码输入错误登录失败",
+        "uid" : "b010c235ab241e4d",
+        "parentUid" : "647d8208e0b639385510388f7732bb4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653983413419,
+          "stop" : 1653983414436,
+          "duration" : 1017
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华\",\n\"password\":\"12345633\"}  '", "'post请求-验证密码输入错误登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "test_getAll[http://127.0.0.1:5000/api/getAllDepts]",
+        "uid" : "cc5d80ae5f04f8f8",
+        "parentUid" : "647d8208e0b639385510388f7732bb4a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653983416202,
+          "stop" : 1653983416202,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'http://127.0.0.1:5000/api/getAllDepts'" ]
+      }, {
+        "name" : "test_del",
+        "uid" : "db07a0855e1a8d74",
+        "parentUid" : "647d8208e0b639385510388f7732bb4a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653983416252,
+          "stop" : 1653983416252,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "post请求-验证不输入用户名登录失败",
+        "uid" : "33b30b5d30af9f44",
+        "parentUid" : "647d8208e0b639385510388f7732bb4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653983411307,
+          "stop" : 1653983412316,
+          "duration" : 1009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\n\"password\":\"123456\"}  '", "'post请求-验证不输入用户名登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "post请求-验证用户名输入非法参数登录失败",
+        "uid" : "78ccaee880e7fa30",
+        "parentUid" : "647d8208e0b639385510388f7732bb4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653983412348,
+          "stop" : 1653983413381,
+          "duration" : 1033
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华@\",\n\"password\":\"123456\"}   '", "'post请求-验证用户名输入非法参数登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "注销",
+        "uid" : "4c1b82e07161bb90",
+        "parentUid" : "647d8208e0b639385510388f7732bb4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653983414494,
+          "stop" : 1653983414495,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add[http://127.0.0.1:5000/api/addDept-{\"deptname\":\"实施部\"}    \n]",
+        "uid" : "5fbb2a5bb98c74a6",
+        "parentUid" : "647d8208e0b639385510388f7732bb4a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653983414507,
+          "stop" : 1653983414507,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"deptname\":\"实施部\"}    \n'", "'http://127.0.0.1:5000/api/addDept'" ]
+      }, {
+        "name" : "登录2",
+        "uid" : "98afc6787770f711",
+        "parentUid" : "647d8208e0b639385510388f7732bb4a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653983414464,
+          "stop" : 1653983414464,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "post请求-验证能够成功登录",
+        "uid" : "18568141096fff2b",
+        "parentUid" : "647d8208e0b639385510388f7732bb4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653983410244,
+          "stop" : 1653983411285,
+          "duration" : 1041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华\",\n\"password\":\"123456\"}    \n'", "'post请求-验证能够成功登录'", "'http://127.0.0.1:5000/api/login'" ]
+      } ],
+      "uid" : "647d8208e0b639385510388f7732bb4a"
+    }, {
+      "name" : "5188-MainThread",
+      "children" : [ {
+        "name" : "test_getAll[http://127.0.0.1:5000/api/getAllDepts]",
+        "uid" : "7dd8a8a67b76233a",
+        "parentUid" : "dbf3446dbad7c46a1a421664fd618f53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653984028988,
+          "stop" : 1653984028998,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'http://127.0.0.1:5000/api/getAllDepts'" ]
+      }, {
+        "name" : "post请求-验证不输入用户名登录失败",
+        "uid" : "ca4388df9d2173d4",
+        "parentUid" : "dbf3446dbad7c46a1a421664fd618f53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653984028905,
+          "stop" : 1653984028914,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\n\"password\":\"123456\"}  '", "'post请求-验证不输入用户名登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "post请求-验证密码输入错误登录失败",
+        "uid" : "9162a009e389d49a",
+        "parentUid" : "dbf3446dbad7c46a1a421664fd618f53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653984028943,
+          "stop" : 1653984028953,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华\",\n\"password\":\"12345633\"}  '", "'post请求-验证密码输入错误登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "test_add[http://127.0.0.1:5000/api/addDept-{\"deptname\":\"实施部\"}    \n]",
+        "uid" : "3335d72f50e868d7",
+        "parentUid" : "dbf3446dbad7c46a1a421664fd618f53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653984028974,
+          "stop" : 1653984028983,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"deptname\":\"实施部\"}    \n'", "'http://127.0.0.1:5000/api/addDept'" ]
+      }, {
+        "name" : "post请求-验证用户名输入非法参数登录失败",
+        "uid" : "e5807f870bd87e10",
+        "parentUid" : "dbf3446dbad7c46a1a421664fd618f53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653984028921,
+          "stop" : 1653984028932,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华@\",\n\"password\":\"123456\"}   '", "'post请求-验证用户名输入非法参数登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "post请求-验证能够成功登录",
+        "uid" : "df40fba91df7cead",
+        "parentUid" : "dbf3446dbad7c46a1a421664fd618f53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653984028885,
+          "stop" : 1653984028897,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华\",\n\"password\":\"123456\"}    \n'", "'post请求-验证能够成功登录'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "test_del",
+        "uid" : "11d39b8db450d4b0",
+        "parentUid" : "dbf3446dbad7c46a1a421664fd618f53",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653984029002,
+          "stop" : 1653984029002,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录2",
+        "uid" : "eeb46806e20bc9e3",
+        "parentUid" : "dbf3446dbad7c46a1a421664fd618f53",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653984028959,
+          "stop" : 1653984028959,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "注销",
+        "uid" : "864a54793765bae1",
+        "parentUid" : "dbf3446dbad7c46a1a421664fd618f53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653984028964,
+          "stop" : 1653984028964,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dbf3446dbad7c46a1a421664fd618f53"
+    }, {
+      "name" : "5772-MainThread",
+      "children" : [ {
+        "name" : "test_add[http://127.0.0.1:5000/api/addDept-{\"deptname\":\"实施部\"}    \n]",
+        "uid" : "5640d1e5d87eb7f3",
+        "parentUid" : "9201563ba474513d1879251e41ea1f20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895561121,
+          "stop" : 1653895561130,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"deptname\":\"实施部\"}    \n'", "'http://127.0.0.1:5000/api/addDept'" ]
+      }, {
+        "name" : "post请求-验证不输入用户名登录失败",
+        "uid" : "bdee963b027d2c58",
+        "parentUid" : "9201563ba474513d1879251e41ea1f20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895560950,
+          "stop" : 1653895560999,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\n\"password\":\"123456\"}  '", "'post请求-验证不输入用户名登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "登录2",
+        "uid" : "ac8e24f2cf9cdb84",
+        "parentUid" : "9201563ba474513d1879251e41ea1f20",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653895561093,
+          "stop" : 1653895561093,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_getAll[http://127.0.0.1:5000/api/getAllDepts]",
+        "uid" : "2dc08960d5fd2fa5",
+        "parentUid" : "9201563ba474513d1879251e41ea1f20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895561138,
+          "stop" : 1653895561152,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'http://127.0.0.1:5000/api/getAllDepts'" ]
+      }, {
+        "name" : "注销",
+        "uid" : "90a0a30c7e08b267",
+        "parentUid" : "9201563ba474513d1879251e41ea1f20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895561100,
+          "stop" : 1653895561100,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "post请求-验证用户名输入非法参数登录失败",
+        "uid" : "33219c8463c02a0",
+        "parentUid" : "9201563ba474513d1879251e41ea1f20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895561021,
+          "stop" : 1653895561038,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华@\",\n\"password\":\"123456\"}   '", "'post请求-验证用户名输入非法参数登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "post请求-验证密码输入错误登录失败",
+        "uid" : "16f7b1fbccc08cb7",
+        "parentUid" : "9201563ba474513d1879251e41ea1f20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895561059,
+          "stop" : 1653895561076,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华\",\n\"password\":\"12345633\"}  '", "'post请求-验证密码输入错误登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "test_del",
+        "uid" : "feab1f167bcbae67",
+        "parentUid" : "9201563ba474513d1879251e41ea1f20",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653895561163,
+          "stop" : 1653895561163,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "post请求-验证能够成功登录",
+        "uid" : "8f927ffe64dfd5dc",
+        "parentUid" : "9201563ba474513d1879251e41ea1f20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895560901,
+          "stop" : 1653895560928,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华\",\n\"password\":\"123456\"}    \n'", "'post请求-验证能够成功登录'", "'http://127.0.0.1:5000/api/login'" ]
+      } ],
+      "uid" : "9201563ba474513d1879251e41ea1f20"
+    }, {
+      "name" : "8100-MainThread",
+      "children" : [ {
+        "name" : "test_del",
+        "uid" : "5daf8db0622199e6",
+        "parentUid" : "ee8eb2db7616527238e2769a4dee40f6",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653895969796,
+          "stop" : 1653895969796,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "注销",
+        "uid" : "f259623c89ff220",
+        "parentUid" : "ee8eb2db7616527238e2769a4dee40f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895969741,
+          "stop" : 1653895969741,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "881cc23205c748df",
+        "parentUid" : "ee8eb2db7616527238e2769a4dee40f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895969627,
+          "stop" : 1653895969637,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\n\"password\":\"123456\"}  '", "'post请求-验证不输入用户名登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "test_add[http://127.0.0.1:5000/api/addDept-{\"deptname\":\"实施部\"}    \n]",
+        "uid" : "b6be951ffca59da9",
+        "parentUid" : "ee8eb2db7616527238e2769a4dee40f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895969761,
+          "stop" : 1653895969768,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"deptname\":\"实施部\"}    \n'", "'http://127.0.0.1:5000/api/addDept'" ]
+      }, {
+        "name" : "登录",
+        "uid" : "19a8f0941b03bddb",
+        "parentUid" : "ee8eb2db7616527238e2769a4dee40f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895969642,
+          "stop" : 1653895969700,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华@\",\n\"password\":\"123456\"}   '", "'post请求-验证用户名输入非法参数登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "登录",
+        "uid" : "edb114a4312aac41",
+        "parentUid" : "ee8eb2db7616527238e2769a4dee40f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895969605,
+          "stop" : 1653895969614,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华\",\n\"password\":\"123456\"}    \n'", "'post请求-验证能够成功登录'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "登录",
+        "uid" : "1cd8894e978d0c38",
+        "parentUid" : "ee8eb2db7616527238e2769a4dee40f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895969709,
+          "stop" : 1653895969723,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'{\"username\":\"孙华\",\n\"password\":\"12345633\"}  '", "'post请求-验证密码输入错误登录失败'", "'http://127.0.0.1:5000/api/login'" ]
+      }, {
+        "name" : "test_getAll[http://127.0.0.1:5000/api/getAllDepts]",
+        "uid" : "ce1e361c36924db3",
+        "parentUid" : "ee8eb2db7616527238e2769a4dee40f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653895969780,
+          "stop" : 1653895969789,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'http://127.0.0.1:5000/api/getAllDepts'" ]
+      }, {
+        "name" : "登录2",
+        "uid" : "7197dc13c962548",
+        "parentUid" : "ee8eb2db7616527238e2769a4dee40f6",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1653895969729,
+          "stop" : 1653895969729,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ee8eb2db7616527238e2769a4dee40f6"
+    } ],
+    "uid" : "f114bcbc696f3edb50dfa3e75c925e06"
+  } ]
+}
